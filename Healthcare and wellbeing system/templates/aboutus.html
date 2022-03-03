@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% block title %} AboutUs Page {% endblock%}
+{% block body %}
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: left;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+</style>
+<div class="col-md-6">
+<div class="card">
+  <img src="/static/Picture.jpg" alt="" style="width:50%" height="200%" align="right">
+  <h1>Kartikeya Srinivas</h1>
+  <p class="title">Developer</p>
+  <p>KL University</p>
+  <a href=""><i class="fa fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/kartikeya-srinivas/"><i class="fa fa-linkedin"></i></a>
+</div>
+</div>
+ <div class="col-md-6">
+<div class="card">
+
+  <h1>Harsha Vardhan</h1>
+  <p class="title">Developer </p>
+  <p>KL University CSE HONORS </p>
+  <p>Follow us on </p>
+  <a href=""><i class="fa fa-github"></i></a>
+  <a href=""><i class="fa fa-linkedin"></i></a>
+</div>
+ </div>
+{% endblock %}
